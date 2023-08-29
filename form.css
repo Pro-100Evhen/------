@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,500,700&display=swap");
+.pay-form{
+   max-width: 1000px;
+   margin: 0px auto;
+   font-family: "Montserrat";
+   margin-top: 55px;
+   margin-bottom: 55px;
+}
+.pay-form .column {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 15px;
+}
+.pay-form input{
+   border-radius: 5px;
+   padding: 10px;
+   background-color: #f3f3f3;
+   color: #222121;
+   border: none;
+}
+.pay-form .column label {
+   margin-bottom: 10px;
+}
+.pay-form .title {
+   margin: 0px;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+
+.pay-form .sub-title {
+   margin-top: 0;
+   margin-bottom: 30px;
+   font-weight: 400;
+   font-size: 14px;
+
+}
+
+.pay-form .cart-number {
+}
+
+.pay-form .half-inputs {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+}
+
+.pay-form .expires {
+}
+
+.pay-form .csc {
+}
+
+.pay-form .first-name {
+}
+
+.pay-form .last-name {
+}
+
+.pay-form .adress {
+}
+
+.pay-form .adress-title {
+}
+
+.pay-form .street {
+}
+
+.pay-form .second-line {
+}
+
+.pay-form .postal-code {
+}
+
+.pay-form .city {
+}
+
+.pay-form .contact {
+}
+
+.pay-form .contact-title {
+}
+
+.pay-form .phone {
+   
+}
+.pay-form .phone-pref {
+   background-color: transparent;
+   border-radius: 10px;
+   min-width: 90px;
+   padding: 10px;
+   margin-right: 10px;
+}
+
+.pay-form .phone-type {
+   background-color: transparent;
+   border-radius: 10px;
+   min-width: 90px;
+   padding: 10px;
+   margin-right: 10px;
+}
+
+.pay-form input.email {
+   width: calc(100% - 22px);
+   margin-bottom: 30px;
+}
+.pay-form .pay {
+   width: 100%;
+   padding: 20px;
+   font-size: 24px;
+   background-color: #1e7e94;
+   color: #fff;
+   border-radius: 10px;
+   transition: all 0.3s ease 0s;
+}
+.pay-form .pay:hover {
+   background-color: #108fac;
+}
+
