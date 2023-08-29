@@ -14,9 +14,17 @@
          <form>
             <div class="cart-number column">
                <label>Please enter a card number</label>
-               <input type="text" placeholder="Card number" />
+               <input type="text" placeholder="4200 0000 0000" />
             </div>
             <div class="half-inputs">
+               <div class="expires column">
+                  <label>Expiration date</label>
+                  <input type="text" placeholder="10/24" />
+               </div>
+               <div class="csc column">
+                  <label>CVC/CVV code</label>
+                  <input type="text" placeholder="CVC" />
+               </div>
                <div class="first-name column">
                   <label>First name</label>
                   <input type="text" placeholder="John " />
@@ -25,15 +33,6 @@
                   <label>Last name</label>
                   <input type="text" placeholder="Doe" />
                </div>
-               <div class="expires column">
-                  <label>Expiration date</label>
-                  <input type="text" placeholder="07/09" />
-               </div>
-               <div class="csc column">
-                  <label>CVC/CVV code</label>
-                  <input type="text" placeholder="444" />
-               </div>
-              
             </div>
 
             <div class="adress">
@@ -71,7 +70,7 @@
 
                   <input type="tel" class="tel" placeholder="your phone" />
                </div>
-               <input type="email" class="email" placeholder="Email" />
+               <input type="email" class="email" placeholder="me@example.com" />
             </div>
 
             <button class="pay">Pay $9.99</button>
