@@ -36,7 +36,14 @@
    min-height: 28px;
    letter-spacing: 1.5px;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.pay-form .first-name input::placeholder{
    text-transform: uppercase;
+   letter-spacing: 2px;
+}
+.pay-form .last-name input::placeholder{
+   text-transform: uppercase;
+   letter-spacing: 2px;
 }
 .pay-form .column label {
    margin-bottom: 10px;
@@ -47,6 +54,11 @@
 .pay-form .cart{
    max-width: 100%;
    margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
+}
+.pay-form .cart img{
+   max-width: 100%;
 }
 .pay-form .title {
    margin: 0px;
