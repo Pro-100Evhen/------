@@ -31,10 +31,11 @@
    border-radius: 5px;
    padding: 10px;
    background-color: #f3f3f3;
-   color: #222121;
+   color: #9c9ea0;
    border: none;
    min-height: 28px;
    letter-spacing: 1.5px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .pay-form .column label {
    margin-bottom: 10px;
@@ -54,27 +55,22 @@
 }
 
 .pay-form .half-inputs {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   column-gap: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
 }
-@media (max-width: 440px){
-   .pay-form .half-inputs {
-      grid-template-columns: calc(50% - 10px) calc(50% - 10px);
-   }
+.pay-form .half-inputs .column{
+   width: calc(50% - 10px);
 }
 
 .pay-form .phone {
    row-gap: 10px;
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: auto auto ;
 }
 @media (max-width: 420px){
    .pay-form .phone{
       grid-template-columns: auto auto;
-   }
-   .pay-form .tel{
-     grid-column: span 2;
    }
 }
 .pay-form .phone-pref {
