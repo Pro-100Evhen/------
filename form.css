@@ -81,7 +81,9 @@
 }
 
 .pay-form .phone {
-   
+   row-gap: 10px;
+   display: grid;
+   grid-template-columns: auto auto auto;
 }
 .pay-form .phone-pref {
    background-color: transparent;
@@ -98,7 +100,19 @@
    padding: 10px;
    margin-right: 10px;
 }
-
+@media (max-width: 420px){ 
+   .pay-form .phone-pref {
+      min-width: 60px;
+      padding: 5px;
+      margin-right: 5px;
+   }
+   
+   .pay-form .phone-type {
+      min-width: 60px;
+      padding: 5px;
+      margin-right: 5px;
+   }
+}
 .pay-form input.email {
    width: calc(100% - 22px);
    margin-bottom: 30px;
